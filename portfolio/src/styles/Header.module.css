@@ -1,0 +1,29 @@
+.headerView{
+    transition: top 0.2s ease-in-out;
+    background-color: #ff6f68;
+    width: 100%;
+    top:0;
+}
+
+.item{
+    list-style: none;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+a{
+    text-transform: uppercase;
+    font-family: 'ProximaNova';
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #f2f2f2;
+}
+
+a:hover {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 6px;
+}
+
+.navUp{
+    top: -40px;
+  }

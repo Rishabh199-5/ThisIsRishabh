@@ -1,0 +1,44 @@
+.introView {
+    font-size: 1.4em;
+    text-transform: none;
+    font-weight: 400;
+    font-family: 'Sacramento',cursive !important;
+}
+
+.header{
+    background: #ffdbdb;
+}
+
+.banner{
+    width:100%;
+}
+.middleBannerSection {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    max-width: 62.5em;
+}
+
+.heading{
+    text-align: center;
+}
+
+.isHidden{
+    opacity: 0;
+}
+
+.isVisible{
+    opacity: 1;
+}
+
+.wrapper::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background-color: #aebcb9;
+}
