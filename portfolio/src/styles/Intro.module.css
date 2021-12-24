@@ -24,15 +24,14 @@
 .heading{
     text-align: center;
 }
-
-.isHidden{
-    opacity: 0;
+.wrapper{
+    transition: width .1s ease;
+    vertical-align: middle;
+    display: inline-block;
+    white-space: nowrap;
+    text-align: left;
+    font-size: 40px;
 }
-
-.isVisible{
-    opacity: 1;
-}
-
 .wrapper::after {
     content: '';
     position: absolute;
@@ -41,4 +40,22 @@
     width: 2px;
     height: 100%;
     background-color: #aebcb9;
+}
+
+.wrapper b {
+    display: inline-block;
+    width: 100%;
+}
+
+.isVisible{
+    opacity: 1;
+    position: absolute;
+    overflow: hidden;
+    top:0;
+    left:0;
+}
+
+.isHidden{
+    opacity: 0;
+    display: none;
 }
