@@ -1,0 +1,57 @@
+.error {
+    color: #ff3333;
+    font-size: 12px;
+}
+
+input[type="text"],
+textarea {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+    border: 0;
+    padding: 10px 15px;
+    background: #1E242C;
+    font-size: 12pt;
+    margin-bottom: 3px;
+    color: #fff;
+}
+
+textarea {
+    min-height: 150px;
+    margin-bottom: 5px;
+}
+
+.container {
+    background: #252934;
+    width: 100%;
+    display: inline-block;
+}
+
+.contactForm {
+    margin: 40px auto 0;
+    max-width: 500px;
+}
+
+.text {
+    font-weight: 600;
+    color: #ff6f68;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.form {
+    display: inline-block;
+    width: 100%;
+}
+
+.submit {
+    float: right;
+    margin: 5px 0 0 0;
+    font-size: 12pt;
+    padding: 10px 30px;
+    color: #fff;
+    background: transparent;
+    outline: 0;
+    text-transform: uppercase;
+}

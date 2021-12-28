@@ -31,7 +31,15 @@
     white-space: nowrap;
     text-align: left;
     font-size: 40px;
+    height: 48px;
+    overflow: hidden;
 }
+
+.iama{
+    font-size: 40px;
+    vertical-align: middle;
+}
+
 .wrapper::after {
     content: '';
     position: absolute;
@@ -43,19 +51,19 @@
 }
 
 .wrapper b {
-    display: inline-block;
-    width: 100%;
+    display: block;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+    top:0;
+    left:0;
+    font-size: 40px;
 }
 
 .isVisible{
     opacity: 1;
-    position: absolute;
-    overflow: hidden;
-    top:0;
-    left:0;
 }
 
 .isHidden{
     opacity: 0;
-    display: none;
 }

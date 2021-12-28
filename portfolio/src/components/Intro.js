@@ -38,7 +38,7 @@ const Intro = () => {
                 <h1 className = {IntroViewCSS.heading}>
                     <span className={IntroViewCSS.introView}>Rishabh Dangwal</span>
                     <br/>
-                    <span className = "iama">I am </span> 
+                    <span className = {IntroViewCSS.iama}>I am </span> 
                     <span className = {IntroViewCSS.wrapper} style ={{width:containerWidth}}>
                         {
                             interests.map((interest,index) => (

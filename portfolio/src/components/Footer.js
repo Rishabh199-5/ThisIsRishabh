@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import FooterCSS from '../styles/Footer.module.css';
-
+import Contact from '../components/Contact';
 const Footer = () => {
   const socialLinks = [
     {icon:"fa fa-linkedin",link:"https://www.linkedin.com/in/rishabh-dangwal-706550103"},
@@ -18,6 +18,7 @@ const Footer = () => {
     <div className = {FooterCSS.curve}>
 
     </div>
+    <Contact/>
     <div className = {FooterCSS.container}>
       <div className = {FooterCSS.topIcon}>
       <i className = "fa fa-angle-double-up" onClick={moveToTop}/>
