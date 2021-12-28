@@ -1,0 +1,15 @@
+.wrapper{
+    width: 100%;
+}
+
+.heading{
+    font-size: 25px;
+    color: #838383;
+    text-align: center;
+    margin: 0;
+}
+
+.imageWrapper{
+    display: flex;
+    place-content: center;
+}

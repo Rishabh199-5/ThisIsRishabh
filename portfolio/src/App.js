@@ -3,6 +3,7 @@ import AboutMe from './components/AboutMe';
 import Footer from './components/Footer';
 import Header from './components/header';
 import Quotes from './components/Quotes';
+import Skills from './components/Skills';
 import './App.css';
 
 function App() {
@@ -16,6 +17,9 @@ function App() {
       </section>
       <section className = "aboutMe">
         <AboutMe/>
+      </section>
+      <section className = "skills">
+        <Skills/>
       </section>
       <section className = "quotes">
         <Quotes/>
