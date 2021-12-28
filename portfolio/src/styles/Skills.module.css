@@ -1,5 +1,58 @@
 .wrapper{
     width: 100%;
+    display: inline-block;
+}
+
+.leftPnl{
+    width: 40%;
+    float: left;
+}
+
+.rightPnl{
+    width: 60%;
+    float: right;
+}
+
+.bar{
+    height: 28px;
+    margin: 0 0 15px;
+    font-size: 11pt;
+    position: relative;
+    color: #666;
+    background-color: #eee;
+    box-shadow: 3px 3px 10px #0d0c0d;
+    padding: 2px;
+}
+
+.skill{
+    height: inherit;
+    max-width: 0;
+    background-color: #ff6f68;
+    transition: 1s ease-in-out max-width;
+}
+
+.name{
+    position: absolute;
+    top: 0;
+    background-color: #242427;
+    height: 100%;
+    color: #fff;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    place-content: center;
+    box-shadow: 3px 3px 10px #0d0c0d;
+}
+
+.rate{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    place-content: center;
+    height: 100%;
+    padding-right: 15px;
 }
 
 .heading{
