@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/ThisIsRishabh/static/css/main.f688752e.css",
+    "main.js": "/ThisIsRishabh/static/js/main.15b09bd1.js",
+    "static/js/787.9b9c0edf.chunk.js": "/ThisIsRishabh/static/js/787.9b9c0edf.chunk.js",
+    "static/media/skyISTheLimit.gif": "/ThisIsRishabh/static/media/skyISTheLimit.33933b316a75db0dad82.gif",
+    "static/media/rish.jpg": "/ThisIsRishabh/static/media/rish.74091dbab921def89476.jpg",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/ThisIsRishabh/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/dwnlddone.gif": "/ThisIsRishabh/static/media/dwnlddone.a3ffc69be242cfe12515.gif",
+    "static/media/fontawesome-webfont.eot": "/ThisIsRishabh/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/ThisIsRishabh/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/bill.jpeg": "/ThisIsRishabh/static/media/bill.d1870a038bb1765b8238.jpeg",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/ThisIsRishabh/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/elon.jpeg": "/ThisIsRishabh/static/media/elon.12e0809b7f5048bfd9c3.jpeg",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/ThisIsRishabh/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/Sacramento-Regular.ttf": "/ThisIsRishabh/static/media/Sacramento-Regular.8e499a8cb6cdb915c291.ttf",
+    "static/media/Proxima_Nova_Font.otf": "/ThisIsRishabh/static/media/Proxima_Nova_Font.7bc9ce404c297c24f210.otf",
+    "static/media/mark.jpeg": "/ThisIsRishabh/static/media/mark.b4420a881e10cbc9ad3f.jpeg",
+    "index.html": "/ThisIsRishabh/index.html",
+    "main.f688752e.css.map": "/ThisIsRishabh/static/css/main.f688752e.css.map",
+    "main.15b09bd1.js.map": "/ThisIsRishabh/static/js/main.15b09bd1.js.map",
+    "787.9b9c0edf.chunk.js.map": "/ThisIsRishabh/static/js/787.9b9c0edf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f688752e.css",
+    "static/js/main.15b09bd1.js"
+  ]
+}
