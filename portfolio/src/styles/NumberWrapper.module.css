@@ -1,0 +1,17 @@
+.col{
+    font-size: 2.5rem;
+    color: #ff6f68;
+    float: left;
+}
+
+.type{
+    font-size: 1.2rem;
+    color: #242427;
+    text-align: center;
+}
+
+.animatedNumber{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}

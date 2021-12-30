@@ -3,6 +3,26 @@
     font-size: 12px;
 }
 
+.label{
+    font-size: 55px;
+    color: #fff;
+    text-align: center;
+}
+
+.lineContainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    place-content: center;
+}
+
+.line{
+    width: 70px;
+    height: 4px;
+    background: #fff;
+    margin: 25px 0;
+}
+
 input[type="text"],
 textarea {
     display: block;
@@ -38,6 +58,7 @@ textarea {
     color: #ff6f68;
     text-align: center;
     text-transform: uppercase;
+    margin-bottom: 10px;
 }
 
 .form {

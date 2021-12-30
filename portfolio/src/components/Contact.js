@@ -22,13 +22,15 @@ const AboutMe = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        if(values.firstName && values.lastName && values.email) {
+        if(values.name && values.email && values.message) {
             setValid(true);
             setValues({
                 name: '',
                 email: '',
                 message: '',
             })
+        }else{
+            setValid(false);
         }
         setSubmitted(true);
         console.log("values",values);
@@ -38,8 +40,8 @@ const AboutMe = () => {
         <div className={ContactCSS.container}>
             <div className={ContactCSS.header}>
                 <div className={ContactCSS.label}>CONTACT</div>
-                <div className="line-container">
-                    <span className="line"></span>
+                <div className={ContactCSS.lineContainer}>
+                    <span className={ContactCSS.line}></span>
                 </div>
             </div>
             <div className={ContactCSS.contactForm}>
@@ -48,11 +50,11 @@ const AboutMe = () => {
                 </div>
                 <form onSubmit={handleSubmit} >
                 <input value={values.name} type="text" placeholder="Name"  onChange={(event) => handleInputChange(event,"name")}/>
-                {submitted && !values.name && <span className={ContactCSS.error}>Please enter your name</span>}
+                {!valid && submitted && !values.name && <span className={ContactCSS.error}>Please enter your name</span>}
                 <input value={values.email} type ="text" placeholder="Email"onChange={(event) => handleInputChange(event,"email")} />
-                {submitted && !values.email && <span className={ContactCSS.error}>Please enter email</span>}
+                {!valid && submitted && !values.email && <span className={ContactCSS.error}>Please enter email</span>}
                 <textarea value={values.message} placeholder="Your Message" onChange={(event) => handleInputChange(event,"message")}/>
-                {submitted && !values.message && <span className={ContactCSS.error}>Please enter your message</span>}
+                {!valid && submitted && !values.message && <span className={ContactCSS.error}>Please enter your message</span>}
                 <input type = "submit" className ={ContactCSS.submit}/>
                 </form>
             </div>
