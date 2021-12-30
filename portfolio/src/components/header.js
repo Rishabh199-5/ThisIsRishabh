@@ -28,7 +28,7 @@ const Header = () => {
     return (
     <ul className = {classnames(HeaderCSS.headerView,{[`${HeaderCSS.navUp}`]:!isHeaderVisible})}>
         {
-            headerItems.map(item => (<li className = {HeaderCSS.item}><a href = {`#${item}`}>{item}</a></li>))
+            headerItems.map(item => (<li className = {HeaderCSS.item}><a href = {`#${item}`} >{item}</a></li>))
         }
     </ul>
     );

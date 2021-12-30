@@ -16,20 +16,19 @@ function App() {
       <section className = "intro">
         <Intro/>
       </section>
-      <section className = "aboutMe">
+      <section className = "aboutMe" id = "about">
         <AboutMe/>
       </section>
       <section className = "numberWrapper">
       <NumberWrapper/>
       </section>
-      <section className = "skills">
+      <section className = "skills" id = "skills">
         <Skills/>
       </section>
-      <section className = "quotes">
+      <section className = "quotes" id = "quotes" >
         <Quotes/>
       </section>
-      <section className = "skills"></section>
-      <section className = "footer">
+      <section className = "footer" id="coffee">
         <Footer/>
       </section>
     </div>
