@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ThisIsRishabh/static/css/main.7e25cb19.css",
-    "main.js": "/ThisIsRishabh/static/js/main.0721380a.js",
+    "main.css": "/ThisIsRishabh/static/css/main.ce71f2ba.css",
+    "main.js": "/ThisIsRishabh/static/js/main.bc190e1c.js",
     "static/js/787.9b9c0edf.chunk.js": "/ThisIsRishabh/static/js/787.9b9c0edf.chunk.js",
     "static/media/skyISTheLimit.gif": "/ThisIsRishabh/static/media/skyISTheLimit.33933b316a75db0dad82.gif",
     "static/media/rish.jpg": "/ThisIsRishabh/static/media/rish.74091dbab921def89476.jpg",
@@ -17,12 +17,12 @@
     "static/media/Proxima_Nova_Font.otf": "/ThisIsRishabh/static/media/Proxima_Nova_Font.7bc9ce404c297c24f210.otf",
     "static/media/mark.jpeg": "/ThisIsRishabh/static/media/mark.b4420a881e10cbc9ad3f.jpeg",
     "index.html": "/ThisIsRishabh/index.html",
-    "main.7e25cb19.css.map": "/ThisIsRishabh/static/css/main.7e25cb19.css.map",
-    "main.0721380a.js.map": "/ThisIsRishabh/static/js/main.0721380a.js.map",
+    "main.ce71f2ba.css.map": "/ThisIsRishabh/static/css/main.ce71f2ba.css.map",
+    "main.bc190e1c.js.map": "/ThisIsRishabh/static/js/main.bc190e1c.js.map",
     "787.9b9c0edf.chunk.js.map": "/ThisIsRishabh/static/js/787.9b9c0edf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e25cb19.css",
-    "static/js/main.0721380a.js"
+    "static/css/main.ce71f2ba.css",
+    "static/js/main.bc190e1c.js"
   ]
 }
