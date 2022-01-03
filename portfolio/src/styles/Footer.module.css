@@ -24,7 +24,7 @@
    }
 
    i {
-       color: #ffffff;
+       color: #ffffff !important;
    }
 
    .container {
