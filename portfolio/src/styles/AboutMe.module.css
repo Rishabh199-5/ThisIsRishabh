@@ -1,31 +1,61 @@
-.wrapper{
+.wrapper {
     width: 100%;
     display: inline-block;
 }
 
-.leftPnl{
+.leftPnl {
     float: left;
     width: 33%;
+}
+
+.top {
     display: flex;
-    align-items: center;
     place-content: center;
 }
 
-.heading{
+.heading {
     font-size: 65px;
 }
 
-.rightPnl{
+.rightPnl {
     float: right;
     width: 66%;
     font-size: 21px;
     color: #838383;
 }
 
-.rishPic{
+.rishPic {
     width: 300px;
     height: 300px;
     border-radius: 50%;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+i {
+    color: #ff6f68 !important;
+}
+
+.social {
+    overflow: hidden;
+    transition: background 0.3s, color 0.3s, box-shadow 0.3s, transform 0.3s;
+    cursor: pointer;
+    width: 55px;
+    height: 55px;
+    position: relative;
+    text-align: center;
+    margin: 0 15px;
+    background: #262F38;
+    font-size: 2em;
+    float: left;
+    display: flex;
+    align-items: center;
+    place-content: center;
+    text-decoration: none;
+}
+
+.imageWrapper {
+    display: flex;
+    align-items: center;
+    place-content: center;
 }
