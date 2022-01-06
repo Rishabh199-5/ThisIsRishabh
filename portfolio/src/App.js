@@ -4,6 +4,7 @@ import Footer from './components/Footer';
 import Header from './components/header';
 import Quotes from './components/Quotes';
 import Skills from './components/Skills';
+import Projects from './components/Projects';
 import NumberWrapper from './components/NumberWrapper';
 import './App.css';
 
@@ -24,6 +25,9 @@ function App() {
       </section>
       <section className = "skills" id = "skills">
         <Skills/>
+      </section>
+      <section>
+        <Projects/>
       </section>
       <section className = "quotes" id = "quotes" >
         <Quotes/>

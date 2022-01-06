@@ -1,0 +1,47 @@
+.wrapper{
+
+}
+
+.filterWrapper{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    place-content: center;
+    margin: 20px 0;
+}
+
+.filter{
+    text-transform: capitalize;
+    float: left;
+    margin: 0 15px;
+    padding: 0 30px;
+    color: #242427;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color .5s;
+}
+
+.selectedFilter{
+    background-color: #ff6f68;
+}
+
+.gridContainer{
+    width: 100%;
+    display: inline-block;
+}
+
+.project{
+    width: 25%;
+    float: left;
+    height: 300px;
+}
+
+.text{
+    font-size: 16pt;
+    font-family: bold;
+}
+
+.techHighLight{
+    color: #ff6f68;
+    text-transform: capitalize;
+}
