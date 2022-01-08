@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/ThisIsRishabh/static/css/main.c3d0be73.css",
-    "main.js": "/ThisIsRishabh/static/js/main.bc190e1c.js",
+    "main.css": "/ThisIsRishabh/static/css/main.275c3092.css",
+    "main.js": "/ThisIsRishabh/static/js/main.cd619800.js",
     "static/js/787.9b9c0edf.chunk.js": "/ThisIsRishabh/static/js/787.9b9c0edf.chunk.js",
     "static/media/skyISTheLimit.gif": "/ThisIsRishabh/static/media/skyISTheLimit.33933b316a75db0dad82.gif",
     "static/media/rish.jpg": "/ThisIsRishabh/static/media/rish.74091dbab921def89476.jpg",
+    "static/media/pos.jpg": "/ThisIsRishabh/static/media/pos.4fced3cf11aa9d67f277.jpg",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/ThisIsRishabh/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/dwnlddone.gif": "/ThisIsRishabh/static/media/dwnlddone.a3ffc69be242cfe12515.gif",
     "static/media/fontawesome-webfont.eot": "/ThisIsRishabh/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
@@ -12,17 +13,22 @@
     "static/media/bill.jpeg": "/ThisIsRishabh/static/media/bill.d1870a038bb1765b8238.jpeg",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/ThisIsRishabh/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/elon.jpeg": "/ThisIsRishabh/static/media/elon.12e0809b7f5048bfd9c3.jpeg",
+    "static/media/ecommerce.jpeg": "/ThisIsRishabh/static/media/ecommerce.1bbb0fe7c200c8d7229d.jpeg",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/ThisIsRishabh/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/admission.jpeg": "/ThisIsRishabh/static/media/admission.f677776eb868c1a23428.jpeg",
+    "static/media/websites.png": "/ThisIsRishabh/static/media/websites.e7ac24a70257033f2db7.png",
+    "static/media/realtime.jpeg": "/ThisIsRishabh/static/media/realtime.db40b0c207fa6e72dd90.jpeg",
     "static/media/Sacramento-Regular.ttf": "/ThisIsRishabh/static/media/Sacramento-Regular.8e499a8cb6cdb915c291.ttf",
     "static/media/Proxima_Nova_Font.otf": "/ThisIsRishabh/static/media/Proxima_Nova_Font.7bc9ce404c297c24f210.otf",
     "static/media/mark.jpeg": "/ThisIsRishabh/static/media/mark.b4420a881e10cbc9ad3f.jpeg",
+    "static/media/pdf.png": "/ThisIsRishabh/static/media/pdf.d4cce83170bc73487c4d.png",
     "index.html": "/ThisIsRishabh/index.html",
-    "main.c3d0be73.css.map": "/ThisIsRishabh/static/css/main.c3d0be73.css.map",
-    "main.bc190e1c.js.map": "/ThisIsRishabh/static/js/main.bc190e1c.js.map",
+    "main.275c3092.css.map": "/ThisIsRishabh/static/css/main.275c3092.css.map",
+    "main.cd619800.js.map": "/ThisIsRishabh/static/js/main.cd619800.js.map",
     "787.9b9c0edf.chunk.js.map": "/ThisIsRishabh/static/js/787.9b9c0edf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c3d0be73.css",
-    "static/js/main.bc190e1c.js"
+    "static/css/main.275c3092.css",
+    "static/js/main.cd619800.js"
   ]
 }
