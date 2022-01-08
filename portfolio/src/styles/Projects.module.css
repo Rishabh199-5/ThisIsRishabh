@@ -37,14 +37,38 @@
     float: left;
     height: 300px;
     box-shadow: 2px 2px 10px;
+    position: relative;
+}
+
+.card{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .text{
     font-size: 16pt;
     font-family: bold;
+    text-align: center;
 }
 
 .techHighLight{
     color: #ff6f68;
     text-transform: capitalize;
+    text-align: center;
+}
+
+.project:hover .hoverContent{
+    display: block !important;
+}
+
+.hoverContent{
+    position: absolute;
+    top: 0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    display: none;
+    background-color: rgba(0,0,0,0.5);
 }

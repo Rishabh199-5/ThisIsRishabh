@@ -1,19 +1,25 @@
 import React,{ useState } from "react";
 import classnames from "classnames";
 import ProjectCSS from '../styles/Projects.module.css';
+import pdfImg from '../assets/projects/pdf.png';
+import posImg from '../assets/projects/pos.jpg';
+import admissionImg from '../assets/projects/admission.jpeg';
+import ecommerceImg from '../assets/projects/ecommerce.jpeg';
+import websitesImg from '../assets/projects/websites.png';
+import realTimeImg from '../assets/projects/realtime.jpeg';
 
 const Projects = () => {
 
     const [filterIndex, setFilterIndex] = useState(0);
     const projects = [
-        { title: "Real Time Application for Collaborative Editing", tech: "js/angular/nodejs" , filters: [0,1,3,5]},
-        { title: "Admissions", tech: "js/angular", filters: [0,1,2] },
-        { title: "Point of Sale", tech: "angular" , filters: [0,1]},
-        { title: "Ecommerce Applications", tech: "js/angular", filters: [0,1,2] },
-        { title: "Websites", tech: "angular" , filters: [0,1]},
-        { title: "Edit PDF on Web", tech: "reactjs/c++", filters: [0,4,5] },
-        { title: "UnEmbedded Fonts in PDF", tech: "js" , filters: [0,2]},
-        { title: "Acroforms in PDF", tech: "reactjs" ,filters: [0,5]},
+        { title: "Real Time Application for Collaborative Editing", tech: "js/angular/nodejs" , filters: [0,1,3,5],imgUrl: realTimeImg},
+        { title: "Admissions", tech: "js/angular", filters: [0,1,2] ,imgUrl: admissionImg},
+        { title: "Point of Sale", tech: "angular" , filters: [0,1] ,imgUrl: posImg},
+        { title: "Ecommerce Applications", tech: "js/angular", filters: [0,1,2], imgUrl: ecommerceImg},
+        { title: "Websites", tech: "angular" , filters: [0,1],imgUrl: websitesImg},
+        { title: "Edit PDF on Web", tech: "reactjs/c++", filters: [0,4,5],imgUrl: pdfImg},
+        { title: "UnEmbedded Fonts in PDF", tech: "js" , filters: [0,2],imgUrl: pdfImg},
+        { title: "Acroforms in PDF", tech: "reactjs" ,filters: [0,5],imgUrl: pdfImg},
     ];
     const [projectsList, setProjectsList] = useState(projects);
     const filters = [
@@ -50,7 +56,7 @@ const Projects = () => {
             {
                 projectsList.map((project) => (
                         <div className={ProjectCSS.project}>
-                            <div className="card">
+                            <div className = {ProjectCSS.card} style={{backgroundImage: `url(${project.imgUrl})`}}>
                             </div>
                             <div className={ProjectCSS.hoverContent}>
                                 <div className={ProjectCSS.text}>{project.title}</div>
