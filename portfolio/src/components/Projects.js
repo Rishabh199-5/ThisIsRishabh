@@ -11,6 +11,10 @@ import realTimeImg from '../assets/projects/realtime.jpeg';
 const Projects = () => {
 
     const [filterIndex, setFilterIndex] = useState(0);
+    const duration = 1000; // ms
+    const delay = 500; // ms
+    const animStr = (i) => `${ProjectCSS.fadeIn} ${duration}ms ease-out ${delay * i}ms forwards`;
+
     const projects = [
         { title: "Real Time Application for Collaborative Editing", tech: "js/angular/nodejs" , filters: [0,1,3,5],imgUrl: realTimeImg},
         { title: "Admissions", tech: "js/angular", filters: [0,1,2] ,imgUrl: admissionImg},
@@ -54,8 +58,8 @@ const Projects = () => {
             </div>
             <div className={ProjectCSS.gridContainer}>
             {
-                projectsList.map((project) => (
-                        <div className={ProjectCSS.project}>
+                projectsList.map((project,i) => (
+                        <div className={ProjectCSS.project} style={{ animation: animStr(i) }}>
                             <div className = {ProjectCSS.card} style={{backgroundImage: `url(${project.imgUrl})`}}>
                             </div>
                             <div className={ProjectCSS.hoverContent}>
