@@ -2,6 +2,8 @@ import React, { useEffect, useRef, useState } from "react";
 import SkillsCSS from '../styles/Skills.module.css';
 import downloadImage from '../assets/dwnld.png';
 import dwnldDoneImage from '../assets/dwnlddone.gif';
+import Resume from '../assets/Rishabh_Resume.pdf';
+import { saveAs } from "file-saver";
 
 const Skills = () => {
   const skills = [{ name: "html", rate: "90%" }, { name: "css", rate: "85%" }, { name: "angular", rate: "85%" }, { name: "reactjs", rate: "90%" }, { name: "javascript", rate: "75%" }, { name: "Design", rate: "60%" }, { name: "Data structures", rate: "75%" }, { name: "Problem Solving", rate: "75%" }];
@@ -10,6 +12,12 @@ const Skills = () => {
   const ref = useRef(null);
   const imageOnClickHandler = () => {
     setCurrImgUrl(dwnldDoneImage);
+    setTimeout(() => {
+      saveAs(
+        Resume,
+        "Rishabh_Resume.pdf"
+      )
+    }, 6000);
   }
   const callBackFn = (entries) => {
     const [ entry ] = entries;
