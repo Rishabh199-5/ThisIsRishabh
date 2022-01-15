@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ThisIsRishabh/static/css/main.831225cd.css",
-    "main.js": "/ThisIsRishabh/static/js/main.b9e41279.js",
+    "main.js": "/ThisIsRishabh/static/js/main.6b14eece.js",
     "static/js/787.9b9c0edf.chunk.js": "/ThisIsRishabh/static/js/787.9b9c0edf.chunk.js",
     "static/media/skyISTheLimit.gif": "/ThisIsRishabh/static/media/skyISTheLimit.33933b316a75db0dad82.gif",
     "static/media/rish.jpg": "/ThisIsRishabh/static/media/rish.74091dbab921def89476.jpg",
@@ -21,14 +21,15 @@
     "static/media/Sacramento-Regular.ttf": "/ThisIsRishabh/static/media/Sacramento-Regular.8e499a8cb6cdb915c291.ttf",
     "static/media/Proxima_Nova_Font.otf": "/ThisIsRishabh/static/media/Proxima_Nova_Font.7bc9ce404c297c24f210.otf",
     "static/media/mark.jpeg": "/ThisIsRishabh/static/media/mark.b4420a881e10cbc9ad3f.jpeg",
+    "static/media/Rishabh_Resume.pdf": "/ThisIsRishabh/static/media/Rishabh_Resume.a54a89a5947239da5fd5.pdf",
     "static/media/pdf.png": "/ThisIsRishabh/static/media/pdf.d4cce83170bc73487c4d.png",
     "index.html": "/ThisIsRishabh/index.html",
     "main.831225cd.css.map": "/ThisIsRishabh/static/css/main.831225cd.css.map",
-    "main.b9e41279.js.map": "/ThisIsRishabh/static/js/main.b9e41279.js.map",
+    "main.6b14eece.js.map": "/ThisIsRishabh/static/js/main.6b14eece.js.map",
     "787.9b9c0edf.chunk.js.map": "/ThisIsRishabh/static/js/787.9b9c0edf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.831225cd.css",
-    "static/js/main.b9e41279.js"
+    "static/js/main.6b14eece.js"
   ]
 }
