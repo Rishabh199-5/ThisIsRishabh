@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import NumberWrapperCSS from '../styles/NumberWrapper.module.css';
-import AnimatedNumber from "animated-number-react";
+import CountUp from 'react-countup';
 
 const NumberWrapper = () => {
     const numberFig = [
@@ -9,19 +9,18 @@ const NumberWrapper = () => {
         { type: "cups of coffee drunk", fig: 1211 },
         { type: "projects completed", fig: 20 }
     ];
-    const formatValue = value => `${value}`;
-    const [duration] = useState(2000);
-    const colWidth = (100/numberFig.length);
+    const [duration] = useState(2);
+    const colWidth = (100 / numberFig.length);
     return (
-        <div className="numberWrapper">
+        <div className= {NumberWrapperCSS.numberWrapper}>
             {
                 numberFig.map((ele) => (
-                    <div className = {NumberWrapperCSS.col} style = {{width:`calc(${colWidth}%)`}}>
-                        <AnimatedNumber className ={NumberWrapperCSS.animatedNumber}
-                            value={ele.fig}
-                            duration={duration}
-                        />
-                        <p className = {NumberWrapperCSS.type}>{ele.type}</p>
+                    <div className={NumberWrapperCSS.col} style={{ width: `calc(${colWidth}%)` }}>
+                        <CountUp className={NumberWrapperCSS.animatedNumber}
+                            start={0} end={ele.fig} duration={duration}
+                            useEasing={true}
+                            useGrouping={true} />
+                        <p className={NumberWrapperCSS.type}>{ele.type}</p>
                     </div>
 
                 ))

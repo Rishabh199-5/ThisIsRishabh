@@ -11,6 +11,7 @@
 .top {
     display: flex;
     place-content: center;
+    padding: 10px;
 }
 
 .heading {
@@ -58,4 +59,10 @@ i {
     display: flex;
     align-items: center;
     place-content: center;
+}
+
+.social:hover {
+    background: #ff6f68;
+    box-shadow: 0 0 0 3px rgba(4, 94, 201, 0.1);
+    transform: scale(0.9);
 }

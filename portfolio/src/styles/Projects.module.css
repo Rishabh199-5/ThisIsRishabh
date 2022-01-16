@@ -7,6 +7,12 @@
       opacity: 1;
     }
   }
+
+ .heading{
+     font-size: 55px;
+     color: #838383;
+     text-align: center;
+ } 
  
 .filterWrapper{
     height: 30px;
