@@ -71,6 +71,7 @@
     color: #ff6f68;
     text-transform: capitalize;
     text-align: center;
+    margin: 5px 0;
 }
 
 .project:hover .hoverContent{
@@ -85,5 +86,8 @@
     height: 100%;
     width: 100%;
     opacity: 0;
+    padding: 5px;
+    margin: 5px 0;
     background-color: rgba(0,0,0,0.5);
+    color: white;
 }
